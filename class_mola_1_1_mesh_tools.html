@@ -114,9 +114,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0d6731cef3125e420c5fa6bb66172ae" id="r_ab0d6731cef3125e420c5fa6bb66172ae"><td class="memItemLeft" align="right" valign="top">static bool[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d6731cef3125e420c5fa6bb66172ae">FaceMask</a> (List&lt; float &gt; values, Predicate&lt; float &gt; filter)</td></tr>
 <tr class="memdesc:ab0d6731cef3125e420c5fa6bb66172ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a boolean array from a float value list based on the input filter condition.  <br /></td></tr>
 <tr class="separator:ab0d6731cef3125e420c5fa6bb66172ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af81362ff3212de99cc479952450ce7d7" id="r_af81362ff3212de99cc479952450ce7d7"><td class="memItemLeft" align="right" valign="top"><a id="af81362ff3212de99cc479952450ce7d7" name="af81362ff3212de99cc479952450ce7d7"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTopology</b> (<a class="el" href="class_mola_1_1_mola_mesh.html">MolaMesh</a> molaMesh)</td></tr>
-<tr class="memdesc:af81362ff3212de99cc479952450ce7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the topology of a MolaMesh. <br /></td></tr>
+<tr class="memitem:af81362ff3212de99cc479952450ce7d7" id="r_af81362ff3212de99cc479952450ce7d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81362ff3212de99cc479952450ce7d7">UpdateTopology</a> (<a class="el" href="class_mola_1_1_mola_mesh.html">MolaMesh</a> molaMesh)</td></tr>
+<tr class="memdesc:af81362ff3212de99cc479952450ce7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the topology of a MolaMesh.  <br /></td></tr>
 <tr class="separator:af81362ff3212de99cc479952450ce7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03e3b8e8d9aefc5d775a4bddc8f64b9" id="r_aa03e3b8e8d9aefc5d775a4bddc8f64b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa03e3b8e8d9aefc5d775a4bddc8f64b9">WeldVertices</a> (<a class="el" href="class_mola_1_1_mola_mesh.html">MolaMesh</a> molaMesh)</td></tr>
 <tr class="memdesc:aa03e3b8e8d9aefc5d775a4bddc8f64b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weld overlapping vertices of a MolaMesh.  <br /></td></tr>
@@ -248,7 +247,7 @@ Example</h3>
 <div class="line"><span class="keywordtype">bool</span>[] mask = MeshUtils.FaceMask(faceArea, filter);</div>
 <div class="ttc" id="aclass_mola_1_1_mesh_factory_html"><div class="ttname"><a href="class_mola_1_1_mesh_factory.html">Mola.MeshFactory</a></div><div class="ttdoc">A collection of methods to create MolaMEsh Premitives.</div><div class="ttdef"><b>Definition</b> MeshFactory.cs:11</div></div>
 <div class="ttc" id="aclass_mola_1_1_mesh_factory_html_a9cc7f5373b4b6a2ad56481aaa3cbe8cc"><div class="ttname"><a href="class_mola_1_1_mesh_factory.html#a9cc7f5373b4b6a2ad56481aaa3cbe8cc">Mola.MeshFactory.CreateSphere</a></div><div class="ttdeci">static MolaMesh CreateSphere(float radius=1, float cx=0, float cy=0, float cz=0, int u_res=10, int v_res=10, Color? color=null)</div><div class="ttdoc">Constructs a uv sphere mesh.</div><div class="ttdef"><b>Definition</b> MeshFactory.cs:632</div></div>
-<div class="ttc" id="aclass_mola_1_1_mola_mesh_html"><div class="ttname"><a href="class_mola_1_1_mola_mesh.html">Mola.MolaMesh</a></div><div class="ttdoc">A mesh describes a 3D surface made of Vertices connected by Faces.</div><div class="ttdef"><b>Definition</b> MolaMesh.cs:16</div></div>
+<div class="ttc" id="aclass_mola_1_1_mola_mesh_html"><div class="ttname"><a href="class_mola_1_1_mola_mesh.html">Mola.MolaMesh</a></div><div class="ttdoc">A mesh describes a 3D surface made of Vertices connected by Faces.</div><div class="ttdef"><b>Definition</b> MolaMesh.cs:12</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -416,6 +415,39 @@ Example</h3>
 
 </div>
 </div>
+<a id="af81362ff3212de99cc479952450ce7d7" name="af81362ff3212de99cc479952450ce7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81362ff3212de99cc479952450ce7d7">&#9670;&#160;</a></span>UpdateTopology()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void UpdateTopology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_mola_1_1_mola_mesh.html">MolaMesh</a></td>          <td class="paramname"><span class="paramname"><em>molaMesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the topology of a MolaMesh. </p>
+<p>/// </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">molaMesh</td><td>A MolaMesh</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aa03e3b8e8d9aefc5d775a4bddc8f64b9" name="aa03e3b8e8d9aefc5d775a4bddc8f64b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa03e3b8e8d9aefc5d775a4bddc8f64b9">&#9670;&#160;</a></span>WeldVertices()</h2>
 
@@ -442,7 +474,7 @@ Example</h3>
 <p>Weld overlapping vertices of a MolaMesh. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">molaMesh</td><td></td></tr>
+    <tr><td class="paramname">molaMesh</td><td>A MolaMesh</td></tr>
   </table>
   </dd>
 </dl>
