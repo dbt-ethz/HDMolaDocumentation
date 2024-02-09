@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['linearsplitquad_0',['LinearSplitQuad',['../class_mola_1_1_mesh_subdivision.html#ab09c8e1794b4132abcc8f9e24406dd9f',1,'Mola.MeshSubdivision.LinearSplitQuad(MolaMesh molaMesh, float minSplitWidth=0f, float maxSplitWidth=0.5f, int dir=0)'],['../class_mola_1_1_mesh_subdivision.html#a4074f0fe773a31fedc8860744a55589e',1,'Mola.MeshSubdivision.LinearSplitQuad(MolaMesh molaMesh, float maxSplitWidth=1f, int dir=0)']]]
+  ['grid_0',['Grid',['../class_mola_1_1_mesh_subdivision.html#a3589dbf48f24a3e7836b5c2d7eed2765',1,'Mola.MeshSubdivision.Grid(MolaMesh molaMesh, int nU, int nV)'],['../class_mola_1_1_mesh_subdivision.html#a7a46d43c168d6f074990499d5846a094',1,'Mola.MeshSubdivision.Grid(MolaMesh molaMesh, List&lt; int &gt; nUList, List&lt; int &gt; nVList)']]],
+  ['gridabs_1',['GridAbs',['../class_mola_1_1_mesh_subdivision.html#a368de86d5af8e03354ebec1a3c915a68',1,'Mola.MeshSubdivision.GridAbs(MolaMesh molaMesh, float x, float y)'],['../class_mola_1_1_mesh_subdivision.html#af53a8c0972fc386e4f672448e4481d4d',1,'Mola.MeshSubdivision.GridAbs(MolaMesh molaMesh, List&lt; float &gt; xList, List&lt; float &gt; yList)']]]
 ];

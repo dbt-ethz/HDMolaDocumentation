@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['weldvertices_0',['WeldVertices',['../class_mola_1_1_mola_mesh.html#ac321aeeef6bf24b709dcd71cd168adaa',1,'Mola::MolaMesh']]]
+  ['updatetopology_0',['UpdateTopology',['../class_mola_1_1_mesh_tools.html#af81362ff3212de99cc479952450ce7d7',1,'Mola::MeshTools']]]
 ];

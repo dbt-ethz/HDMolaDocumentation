@@ -95,16 +95,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9d8e22f02fe98816d189c7de58accdcd" id="r_a9d8e22f02fe98816d189c7de58accdcd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8e22f02fe98816d189c7de58accdcd">getY</a> (int index)</td></tr>
-<tr class="separator:a9d8e22f02fe98816d189c7de58accdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b09185bd874bf924863ac0c6ec0916" id="r_a40b09185bd874bf924863ac0c6ec0916"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40b09185bd874bf924863ac0c6ec0916">getZ</a> (int index)</td></tr>
-<tr class="separator:a40b09185bd874bf924863ac0c6ec0916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766aec82508b64747b7953f4b75fee16" id="r_a766aec82508b64747b7953f4b75fee16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a766aec82508b64747b7953f4b75fee16">MolaGrid</a> (int nX, int nY, int nZ)</td></tr>
+<tr class="memdesc:a766aec82508b64747b7953f4b75fee16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a MolaGrid.  <br /></td></tr>
+<tr class="separator:a766aec82508b64747b7953f4b75fee16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <code>GridManager</code> is taking care of getting and setting values and retrieving neighbors in an orthogonal grid of either 2 or 3 dimension. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9d8e22f02fe98816d189c7de58accdcd" name="a9d8e22f02fe98816d189c7de58accdcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d8e22f02fe98816d189c7de58accdcd">&#9670;&#160;</a></span>getY()</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a766aec82508b64747b7953f4b75fee16" name="a766aec82508b64747b7953f4b75fee16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766aec82508b64747b7953f4b75fee16">&#9670;&#160;</a></span>MolaGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -113,42 +112,19 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int getY </td>
+          <td class="memname"><a class="el" href="class_mola_1_1_mola_grid.html">MolaGrid</a> </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nX</em>, </span></td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a40b09185bd874bf924863ac0c6ec0916" name="a40b09185bd874bf924863ac0c6ec0916"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40b09185bd874bf924863ac0c6ec0916">&#9670;&#160;</a></span>getZ()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">int getZ </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nY</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nZ</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -157,14 +133,21 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Create a MolaGrid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td></td></tr>
+    <tr><td class="paramname">nX</td><td>X dimention</td></tr>
+    <tr><td class="paramname">nY</td><td>Y dimention</td></tr>
+    <tr><td class="paramname">nZ</td><td>Z dimention</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
+<h3><a class="anchor" id="autotoc_md1"></a>
+Example</h3>
+<div class="fragment"><div class="line"><a class="code hl_class" href="class_mola_1_1_mola_grid.html">MolaGrid</a> grid = <span class="keyword">new</span> <a class="code hl_class" href="class_mola_1_1_mola_grid.html">MolaGrid</a>(10, 10, 10);</div>
+<div class="ttc" id="aclass_mola_1_1_mola_grid_html"><div class="ttname"><a href="class_mola_1_1_mola_grid.html">Mola.MolaGrid</a></div><div class="ttdoc">A GridManager is taking care of getting and setting values and retrieving neighbors in an orthogonal ...</div><div class="ttdef"><b>Definition</b> MolaGrid.cs:12</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
